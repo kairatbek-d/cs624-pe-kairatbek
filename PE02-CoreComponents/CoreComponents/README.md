@@ -1,0 +1,8 @@
+<h3>Input</h3>
+<p>The "CoreComponents" mobile app primarily receives input from the user through the TextInput component. The user is prompted to enter their favorite MSCS course. The TextInput element provides a placeholder to guide user input (i.e., "ex. CS624") and the entered value is captured and stored in the favoriteCourse state.</p>
+
+<h3>Process</h3>
+<p>Upon entering a course name, the program's state (i.e., favoriteCourse) gets updated using React's useState hook and the setFavoriteCourse function. This application makes use of functional components with the arrow function syntax, in line with the system requirements. The app also incorporates various core components from React Native, such as View, Text, ScrollView, Image, TextInput, and StyleSheet. The StyleSheet defines the styling for course headers and containers, making the display more organized and visually appealing.</p>
+
+<h3>Output</h3>
+<p>The output is rendered using a scrollable interface (ScrollView). The top displays an image sourced from the "./assets/icon.png" directory. Following this, the user sees a prompt asking their favorite course, followed by their input, and then a list of predefined courses (core, depth of study, and capstone courses). The courses are displayed under their respective headers, with each course name rendered as a Text component within a styled View component. The favorite course entered by the user is displayed first under the "Core Requirements" header, allowing for a personalized experience.</p>
